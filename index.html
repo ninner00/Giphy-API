@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>Giphy API</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+</head>
+<body>
+   <div class="container">
+      <div class="row">
+        <h1>Animal Gif Search</h1>
+
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+      </div>
+      <div class="row animal-name"></div>
+      <div class="row">
+
+        <div class="col-xs-12 col-md-9 animal-list float-right">
+        <!-- Animals will Get Dumped Here -->
+          <div id="animals-view"></div>
+      </div>
+        <div class="col-xs-12 col-md-3 animal-add float-left">
+        <form id="animal-form">
+          <label for="animal-input">Add an Animal</label>
+          <input type="text" id="animal-input">
+          <br>
+          <!-- Button triggers new animal to be added -->
+          <input id="add-animal" type="submit" value="Submit">
+        </form>
+      </div>
+ 
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="assets/javascript/javascript.js"></script>
+
+</body>
+</html>

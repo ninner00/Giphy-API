@@ -1,0 +1,74 @@
+body { 
+	font-family: Roboto, sans-serif;
+	background: url('../images/countryside.jpg') no-repeat center center fixed;
+  	background-size: cover;
+  	height: 100%;
+  	background-color: green;
+  	background-blend-mode: screen;
+}
+
+.animalsDiv { 
+	float: left;
+	margin: 15px;
+ }
+
+
+
+.animal-add { float: right; }
+.animal-list { float: left; }
+#animals-view { margin-left: -25px; }
+#animal-form { margin-top: 15px; }
+#animal-input {
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+
+button {
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+#add-animal {
+    background-color: white;
+    color: #474747;
+    border: none;
+    cursor: pointer;
+}
+
+img { 
+  height: 150px;
+  width: 200px;
+   }
+
+form {
+    background-color: #474747;
+    color: white;
+    padding: 10px; 
+}
+
+
+h5 { font-size: 14px; }
+
+.rating { 
+	background-color: #474747;
+    color: white; 
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.animal-add { float: left !important; }
+	#buttons-view { padding: 0 10px; }
+	h1 { padding-left: 15px; }
+	.animalsDiv { margin: 10px 25px; }
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
